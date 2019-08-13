@@ -25,6 +25,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'com.google.code.gson:gson:2.8.5'
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
@@ -34,4 +35,5 @@ dependencies {
 	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
 	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.7.0'
 	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+	compile 'org.apache.httpcomponents:httpclient:4.5.9'
 }

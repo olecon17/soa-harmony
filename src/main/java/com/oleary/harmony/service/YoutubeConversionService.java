@@ -4,7 +4,7 @@ import com.oleary.harmony.model.ApiModel;
 
 public class YoutubeConversionService implements MusicConversionService {
     @Override
-    public ApiModel convertToApiModel(String url) {
+    public String convertToApiModel(String url) {
         return null;
     }
 }
